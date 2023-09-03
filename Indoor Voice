@@ -1,0 +1,7 @@
+def main():
+    print(to_lower(input()))
+
+def to_lower(s):
+    return s.lower()
+
+main()
