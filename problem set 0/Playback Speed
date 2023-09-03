@@ -1,0 +1,8 @@
+def main():
+    print(replace_spaces(input()))
+
+def replace_spaces(s):
+    return s.replace(" ", "...")
+
+if __name__ == "__main__":
+    main()
